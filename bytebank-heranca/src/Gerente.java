@@ -17,11 +17,13 @@ public class Gerente extends Funcionario {
 	}
 	
 	
+	//Reescrita de método, mesmo nome, mesma assinatura, mesma visibilidade, parâmetros
+	public double getBonificacao() {
+		//return this.salario;
+		return super.salario;
+		// super eleva na hierarquia, das classe, o atributo pe da classe mãe
+	}
 	
-//	public double getBonificacao() {
-//		return this.salario;
-//	}
-//	
 	
 	
 	
