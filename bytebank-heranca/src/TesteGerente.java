@@ -25,7 +25,7 @@ public class TesteGerente {
 	
 	
 	
-//	Nessa aula começamos a falar sobre a herança e aprendemos:
+//		Nessa aula começamos a falar sobre a herança e aprendemos:
 //
 //		quais problemas a herança pode resolver
 //		como usar herança no Java através de palavra chave extends
