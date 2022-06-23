@@ -2,7 +2,7 @@
 public class Funcionario {
 	private String nome;
 	private String cpf;
-	protected double salario; //Protected : público para os métodos e atributos filhos
+	private double salario; //Protected : público para os métodos e atributos filhos
 	
 	
 	
