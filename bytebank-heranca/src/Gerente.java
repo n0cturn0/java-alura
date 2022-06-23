@@ -19,6 +19,7 @@ public class Gerente extends Funcionario {
 	
 		//Reescrita de método, mesmo nome, mesma assinatura, mesma visibilidade, parâmetros
 	public double getBonificacao() {
+		System.out.println("Chamando o método de Bonificacao na Classe Gerente!");
 		//return this.salario;
 		// super eleva na hierarquia, das classe, o atributo pe da classe mãe
 		return super.getBonificacao() + super.getSalario();
