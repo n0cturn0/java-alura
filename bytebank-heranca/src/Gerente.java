@@ -22,7 +22,7 @@ public class Gerente extends Funcionario {
 		System.out.println("Chamando o método de Bonificacao na Classe Gerente!");
 		//return this.salario;
 		// super eleva na hierarquia, das classe, o atributo pe da classe mãe
-		return super.getBonificacao() + super.getSalario();
+		return  super.getSalario();
 	}
 	
 	

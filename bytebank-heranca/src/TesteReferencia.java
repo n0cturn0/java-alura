@@ -14,9 +14,9 @@ public class TesteReferencia {
 		controle.registra(ngerente);
 		
 		//Controle de bonificacao Funcionário
-		Funcionario funcionario = new Funcionario();
-		funcionario.setSalario(2000.0);
-		controle.registra(funcionario);
+//		Funcionario funcionario = new Funcionario();
+//		funcionario.setSalario(2000.0);
+//		controle.registra(funcionario);
 		
 		//Controle de bonificação Editor de Video
 		EditorVideo ev = new EditorVideo();
