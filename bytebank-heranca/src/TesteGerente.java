@@ -3,6 +3,8 @@ public class TesteGerente {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Autenticavel referencia = new Gerente();
 		Gerente n1 = new Gerente();
 		
 		n1.setNome("Giulian Candeias de Sá");
