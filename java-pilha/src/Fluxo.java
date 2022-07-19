@@ -25,7 +25,8 @@ public class Fluxo {
 
     private static void metodo2() {
         System.out.println("Ini do metodo2");
+        throw  new ArithmeticException("Deu ERRADO");
         
-        System.out.println("Fim do metodo2");
+        //System.out.println("Fim do metodo2");
     }
 }
