@@ -57,11 +57,16 @@ public abstract class Conta {
         return this.agencia;
     }
 
+//    public void setAgencia(int agencia){
+//       if(agencia <= 0) {
+//           System.out.println("Nao pode valor menor igual a 0");
+//           return;
+//       }
     public void setAgencia(int agencia){
-       if(agencia <= 0) {
-           System.out.println("Nao pode valor menor igual a 0");
-           return;
-       }
+        if(agencia <= 0) {
+            System.out.println("Nao pode valor menor igual a 0");
+            return;
+        }
        this.agencia = agencia;
     }
 
