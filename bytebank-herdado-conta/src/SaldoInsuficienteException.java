@@ -5,4 +5,9 @@ public class SaldoInsuficienteException extends RuntimeException{
 	{
 		
 	}
+	
+	public NovoSaldoInsuficienteException (String msg)
+	{
+		//Teste
+	}
 }
